@@ -1,7 +1,9 @@
 require 'prime'
 
 def prime?(num)
-  num.any? do |nums|
-    nums.prime?
+  if num.prime?
+    true
+  else
+    false
   end
 end
