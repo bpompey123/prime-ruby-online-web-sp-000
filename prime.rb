@@ -1,7 +1,7 @@
 require 'prime'
 
 def prime?(num)
-  num.include? do |nums|
+  num.any? do |nums|
     nums.prime?
   end
 end
