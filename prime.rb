@@ -1,3 +1,5 @@
+require 'prime'
+
 def prime?(num)
   num.include? do |nums|
     nums.prime?
